@@ -29,7 +29,7 @@ function getFile(e){
 
 function uploadImage() {
   
-  let storageRef = firebase.storage().ref("images/"+ fileName);
+  let storageRef = firebase.storage().ref("Videos/"+ fileName);
   let uploadTask = storageRef.put(fileItem);
   
   
