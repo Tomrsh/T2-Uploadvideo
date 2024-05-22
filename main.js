@@ -49,8 +49,8 @@ function uploadImage() {
       console.log("URL", url);
       alert("Upload Successfull !");
       if (url!= "") {
-        img.setAttribute("src", url);
-        img.style.display="block";
+        video.setAttribute("src", url);
+        video.style.display="block";
       }
       
     })
